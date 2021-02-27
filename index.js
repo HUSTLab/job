@@ -1,10 +1,11 @@
+#!/usr/bin/env node
 const axios = require('axios');
 const fs = require('fs');
 const config = require('./config.json');
-const TOKEN = 'feabec448420a5e23167fbce204bcfcdcc7732f6';
 const LATEST_COUNT = 10;
 const TOP_ISSUES_LABELS = '置顶';
 const ANCHOR_NUMBER = 5;
+const TOKEN = process.argv.slice(2)[0];
 
 async function getIssues(params) {
   const { data } = await axios.get(`${config.api}/issues?token=${TOKEN}`, {

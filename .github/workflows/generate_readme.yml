@@ -1,0 +1,37 @@
+name: Generate Job Information README
+
+on:
+  workflow_dispatch:
+  issues:
+    types: [opened, edited]
+  issue_comment:
+    types: [created, edited]
+  push:
+    branches:
+      - main
+    paths:
+      - index.js
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12.x
+    - name: update readme
+      run: |
+        npm install
+        node index.js --token='${{ secrets.ACCESS_TOKEN }}'
+    - name: Commit files
+      run: |
+        git config --local user.email "actions@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git commit -m "update README after submit issues"
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.ACCESS_TOKEN }}
