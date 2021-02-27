@@ -6,16 +6,15 @@ const LATEST_COUNT = 10;
 const TOP_ISSUES_LABELS = '置顶';
 const ANCHOR_NUMBER = 5;
 const TOKEN = process.argv.slice(2)[0];
-
 async function getIssues(params) {
-  const { data } = await axios.get(`${config.api}/issues?token=${TOKEN}`, {
+  const { data } = await axios.get(`${config.api}/issues?access_token=${TOKEN}`, {
     params,
   });
   return data;
 }
 
 async function getLabels() {
-  const { data } = await axios.get(`${config.api}/labels?token=${TOKEN}`);
+  const { data } = await axios.get(`${config.api}/labels?access_token=${TOKEN}`);
   return data;
 }
 
@@ -32,7 +31,7 @@ function getLatestIssues() {
 // 添加 readme item
 function addIssueItemInfo(issue) {
   const time = String(issue['updated_at']).substring(0, 10);
-  return `- [${issue.title}](${issue['html_url']})--${time}\n`;
+  return `- [${issue.title}](${issue['html_url']}) -- ${time}\n`;
 }
 
 // 添加一个板块
@@ -81,13 +80,13 @@ async function updateReadme() {
     if (isEmpty(issuesWithLabel)) {
       continue;
     }
-    issuesWithLabel.forEach(issue => {
-      if (i === ANCHOR_NUMBER) {
+    issuesWithLabel.forEach((issue, index) => {
+      if (index === ANCHOR_NUMBER) {
         partMD += '<details><summary>显示更多</summary>\n';
         partMD += '\n';
       }
       partMD += addIssueItemInfo(issue);
-      if (i > ANCHOR_NUMBER) {
+      if (index > ANCHOR_NUMBER) {
         partMD += '</detail>\n';
         partMD += '\n';
       }

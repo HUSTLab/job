@@ -24,7 +24,7 @@ jobs:
     - name: update readme
       run: |
         npm install
-        node index.js --token='${{ secrets.ACCESS_TOKEN }}'
+        node index.js '${{ secrets.ACCESS_TOKEN }}'
     - name: Commit files
       run: |
         git config --local user.email "actions@github.com"
