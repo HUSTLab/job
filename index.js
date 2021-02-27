@@ -89,8 +89,8 @@ async function updateReadme() {
         partMD += '\n';
       }
       partMD += addIssueItemInfo(issue);
-      if (index > ANCHOR_NUMBER) {
-        partMD += '</detail>\n';
+      if (index === issuesWithLabel.length-1 && index >= ANCHOR_NUMBER) {
+        partMD += '</details>\n';
         partMD += '\n';
       }
     });
