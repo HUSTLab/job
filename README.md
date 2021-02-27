@@ -34,6 +34,8 @@
 <details><summary>显示更多</summary>
 
 - [实习：阿里巴巴-杭州-数据中台-Java](https://github.com/HUSTLab/job/issues/1) -- 2021-02-27
+</details>
+
 ## 客户端
 - [实习：腾讯-深圳-QQ-客户端](https://github.com/HUSTLab/job/issues/6) -- 2021-02-27
 ## 校招
