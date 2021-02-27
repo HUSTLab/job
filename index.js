@@ -73,11 +73,11 @@ async function updateReadme() {
 
   for (let i = 0; i < labels.length; i++) {
     const label = labels[i];
-    if (label.name === TOP_ISSUES_LABELS) {
+    if (label['name'] === TOP_ISSUES_LABELS) {
       continue;
     }
     let partMD = `## ${label.name}\n`;
-    const issuesWithLabel = await getIssues({ labels: label });
+    const issuesWithLabel = await getIssues({ labels: label['name'] });
     if (isEmpty(issuesWithLabel)) {
       continue;
     }
