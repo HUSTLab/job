@@ -16,6 +16,7 @@
 - [实习/校招：字节跳动-上海/北京/深圳/杭州-抖音/TikTok-前端](https://github.com/HUSTLab/job/issues/7) -- 2021-02-27
 
 ## 近期更新
+- [实习/校招：奇妙王国-北京-开发/产品/游戏策划](https://github.com/HUSTLab/job/issues/22) -- 2021-03-14
 - [社招/实习/校招：字节跳动-北京/重庆-懂车帝-前端开发工程师](https://github.com/HUSTLab/job/issues/21) -- 2021-03-08
 - [实习：阿里巴巴-杭州-新零售通技术-算法](https://github.com/HUSTLab/job/issues/20) -- 2021-03-07
 - [实习：猿辅导-北京-服务端/前端/客户端/直播引擎](https://github.com/HUSTLab/job/issues/19) -- 2021-03-06
@@ -25,7 +26,6 @@
 - [实习/校招：字节跳动-上海-Data-算法/后端](https://github.com/HUSTLab/job/issues/15) -- 2021-03-06
 - [实习：阿里巴巴-杭州-本地生活-前端/测试/Java/客户端](https://github.com/HUSTLab/job/issues/14) -- 2021-03-03
 - [实习：字节跳动-北京-飞书-客户端](https://github.com/HUSTLab/job/issues/13) -- 2021-03-03
-- [实习/校招：阿里巴巴-杭州-游戏互动团队-前端](https://github.com/HUSTLab/job/issues/12) -- 2021-03-03
 ## 前端
 - [实习：猿辅导-北京-服务端/前端/客户端/直播引擎](https://github.com/HUSTLab/job/issues/19) -- 2021-03-06
 - [实习：腾讯-深圳-PGC-前端](https://github.com/HUSTLab/job/issues/17) -- 2021-03-06
@@ -54,13 +54,14 @@
 </details>
 
 ## 实习
+- [实习/校招：奇妙王国-北京-开发/产品/游戏策划](https://github.com/HUSTLab/job/issues/22) -- 2021-03-14
 - [社招/实习/校招：字节跳动-北京/重庆-懂车帝-前端开发工程师](https://github.com/HUSTLab/job/issues/21) -- 2021-03-08
 - [实习：阿里巴巴-杭州-新零售通技术-算法](https://github.com/HUSTLab/job/issues/20) -- 2021-03-07
 - [实习：猿辅导-北京-服务端/前端/客户端/直播引擎](https://github.com/HUSTLab/job/issues/19) -- 2021-03-06
 - [实习：阿里巴巴-杭州-阿里云-后端](https://github.com/HUSTLab/job/issues/18) -- 2021-03-06
-- [实习：腾讯-深圳-PGC-前端](https://github.com/HUSTLab/job/issues/17) -- 2021-03-06
 <details><summary>显示更多</summary>
 
+- [实习：腾讯-深圳-PGC-前端](https://github.com/HUSTLab/job/issues/17) -- 2021-03-06
 - [实习：阿里游戏-广州-自研引擎团队-游戏开发](https://github.com/HUSTLab/job/issues/16) -- 2021-03-06
 - [实习/校招：字节跳动-上海-Data-算法/后端](https://github.com/HUSTLab/job/issues/15) -- 2021-03-06
 - [实习：阿里巴巴-杭州-本地生活-前端/测试/Java/客户端](https://github.com/HUSTLab/job/issues/14) -- 2021-03-03
@@ -90,7 +91,10 @@
 - [实习/校招：字节跳动-北京/上海-抖音/TikTok-前端/算法/后端](https://github.com/HUSTLab/job/issues/5) -- 2021-02-27
 - [实习/校招：阿里巴巴-杭州--企业智能事业部-后端](https://github.com/HUSTLab/job/issues/2) -- 2021-02-27
 ## 游戏
+- [实习/校招：奇妙王国-北京-开发/产品/游戏策划](https://github.com/HUSTLab/job/issues/22) -- 2021-03-14
 - [实习：阿里游戏-广州-自研引擎团队-游戏开发](https://github.com/HUSTLab/job/issues/16) -- 2021-03-06
+## 社招
+- [实习/校招：奇妙王国-北京-开发/产品/游戏策划](https://github.com/HUSTLab/job/issues/22) -- 2021-03-14
 ## 算法
 - [实习：阿里巴巴-杭州-新零售通技术-算法](https://github.com/HUSTLab/job/issues/20) -- 2021-03-07
 - [实习/校招：字节跳动-上海-Data-算法/后端](https://github.com/HUSTLab/job/issues/15) -- 2021-03-06
